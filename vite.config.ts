@@ -5,7 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   plugins: [vue(), vueDevTools()],
-  base: '/ts-final-front/', // ← 換成你的 repo 名稱
+  base: '/Ts-Lesson-2/', // ← 換成你的 repo 名稱
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
